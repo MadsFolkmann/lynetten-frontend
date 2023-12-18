@@ -1,6 +1,6 @@
 import Order from "../Order.js";
 // const endpoint = "http://localhost:4444";
-const endpoint = "http://lynetten-backend.azurewebsites.net";
+const endpoint = "https://lynnetten-backend.azurewebsites.net";
 
 async function getAllOrders() {
     const response = await fetch(`${endpoint}/orders`);
