@@ -1,6 +1,7 @@
 import GuestOrder from "../GuestOrder.js";
 
-const endpoint = "http://localhost:4444";
+// const endpoint = "http://localhost:4444";
+const endpoint = "https://lynetten-backend.azurewebsites.net";
 
 async function getAllGuestOrder() {
     const response = await fetch(`${endpoint}/guestOrders`);
