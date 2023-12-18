@@ -1,7 +1,7 @@
 import User from "../User.js";
 
 // const endpoint = "http://localhost:4444";
-const endpoint = "https://lynetten-backend.azurewebsites.net";
+const endpoint = "http://lynetten-backend.azurewebsites.net";
 
 let allUsers = [];
 let lastFetch = 0;

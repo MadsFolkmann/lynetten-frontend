@@ -2,7 +2,7 @@ import Product from "../Product.js";
 // import Products from "../../main.js";
 
 // const endpoint = "http://localhost:4444";
-const endpoint = "https://lynetten-backend.azurewebsites.net";
+const endpoint = "http://lynetten-backend.azurewebsites.net";
 
 let allProducts = [];
 let lastFetch = 0;
